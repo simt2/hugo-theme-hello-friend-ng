@@ -18,7 +18,10 @@ body {
   font-display: auto;
   font-size: 1rem;
   line-height: 1.54;
-  background-color: $light-background;
+  background: url('images/bg.jpg') no-repeat top center;
+  // background: linear-gradient(0deg, $background-gradient-1, $background-gradient-2), url('images/bg.jpg') no-repeat top center;
+  background-size: cover;
+  background-position: bottom;
   color: $light-color;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
