@@ -1,8 +1,15 @@
 .menu {
   background: #fafafa;
-  border-right: 1px solid;
+  // border-right: 1px solid;
   margin-right: 18px;
   z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-display: auto;
+  font-family: monospace, monospace;
 
   .dark-theme & {
     background: #252627;

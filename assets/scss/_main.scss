@@ -51,6 +51,7 @@ h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2.625rem;
+  font-family: monospace;
 }
 
 h2 {
@@ -81,6 +82,13 @@ h4 {
   h4 {
     font-size: 1.125rem;
   }
+}
+
+.home {
+  background: $dark-background;
+  padding: 20px;
+  margin: 20px auto;
+  border-bottom: 3px solid $dark-color;
 }
 
 a {

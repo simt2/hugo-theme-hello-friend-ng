@@ -4,9 +4,13 @@
   text-align: left;
   padding: 20px;
   margin: 20px auto;
+  position: relative;
   @media #{$media-size-tablet} {
     max-width: 600px;
   }
+
+  background: $dark-background;
+  border-style: solid;
 
   &-date {
     &:after {
@@ -16,6 +20,7 @@
 
   &-title {
     font-size: 2.625rem;
+    font-family: monospace;
     margin: 0 0 20px;
     @media #{$media-size-phone} {
       font-size: 2rem;
